@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
-dataset = pd.read_csv('C:/Users/Muhammad Sarim/Desktop/Machine Learning A-Z New/Part 7 - Natural Language Processing/Section 36 - Natural Language Processing/Restaurant_Reviews.tsv', delimiter = '\t', quoting = 3)
+dataset = pd.read_csv('.tsv_path', delimiter = '\t', quoting = 3)
 
 # Cleaning the texts
 import re
